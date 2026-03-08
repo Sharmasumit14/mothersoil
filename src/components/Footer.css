@@ -1,0 +1,130 @@
+/* Clean Responsive Footer Styles */
+.footer {
+  background: #7c5c3e;
+  color: #fff;
+  padding: 2rem 1rem 1rem 1rem;
+  border-radius: 2rem 2rem 0 0;
+  margin-top: 3rem;
+  font-family: "Quicksand", Arial, sans-serif;
+}
+/* Modern Footer Layout */
+.footer {
+  background: #7c5c3e;
+  color: #fff;
+  padding: 2rem 1rem 1rem 1rem;
+  border-radius: 2rem 2rem 0 0;
+  margin-top: 3rem;
+}
+.footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+.footer-logo {
+  height: 48px;
+  margin-bottom: 0.5rem;
+  max-width: 180px;
+}
+.footer-address {
+  font-size: 1rem;
+  color: #ffe8b2;
+  margin-top: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Quicksand", Arial, sans-serif;
+}
+.footer-fssai-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+.footer-fssai-logo {
+  height: 64px;
+  width: auto;
+  display: block;
+}
+.footer-fssai-text {
+  font-size: 0.95rem;
+  color: #ffe8b2;
+}
+.footer-social-section {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 2rem;
+  align-items: center;
+}
+.footer-social-section a {
+  color: #fff;
+  transition: color 0.2s;
+}
+.footer-social-section a:hover {
+  color: #e2c290;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+  color: #e2c290;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+@media (max-width: 900px) {
+  .footer-main {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    width: 100%;
+  }
+  .footer-logo {
+    height: 32px;
+    max-width: 120px;
+  }
+  .footer-fssai-logo {
+    height: 24px;
+  }
+  .footer-social-section {
+    justify-content: center;
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 600px) {
+  .footer-main {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+  .footer-logo-section,
+  .footer-fssai-section,
+  .footer-social-section {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .footer-logo {
+    height: 32px;
+    max-width: 90px;
+    margin: 0 auto 0.5rem auto;
+  }
+  .footer-fssai-logo {
+    height: 48px;
+    margin: 0 auto;
+  }
+  .footer-bottom {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,127 @@
+/* Hero Section Styles */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: #f5ecd7;
+}
+
+/* .hero-content {
+  margin-top: 1.2rem;
+} */
+
+@media (max-width: 900px) {
+  .hero-header {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .logo {
+    height: 36px;
+  }
+}
+@media (max-width: 600px) {
+  .hero-header {
+    padding: 0.5rem 0.2rem;
+  }
+  nav a {
+    font-size: 0.95rem;
+    margin: 0 0.5rem;
+  }
+}
+
+.logo {
+  height: 80px;
+  max-width: 220px;
+}
+@media (max-width: 900px) {
+  .logo {
+    height: 56px;
+    max-width: 140px;
+  }
+}
+
+nav a {
+  color: #7c5c3e;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #8cb369;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-content h1 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 3rem;
+  color: #7c5c3e;
+  margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+}
+.tagline {
+  font-size: 1.5rem;
+  color: #8cb369;
+  margin-bottom: 1rem;
+}
+.desc {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+.cta-btn {
+  background: linear-gradient(90deg, #7c5c3e, #e2c290);
+  color: #fff;
+  padding: 0.9rem 2.2rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  box-shadow: 0 4px 16px rgba(124, 92, 62, 0.08);
+  cursor: pointer;
+  transition:
+    background 0.3s,
+    transform 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+.cta-btn:hover {
+  background: linear-gradient(90deg, #8cb369, #7c5c3e);
+  transform: translateY(-2px) scale(1.04);
+}
+.honey-drip {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 60px;
+  background: url("/assets/honey-drip.svg") center/cover no-repeat;
+  z-index: 2;
+}
+@media (max-width: 900px) {
+  .hero-header {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+  }
+  .hero-content h1 {
+    font-size: 2.1rem;
+  }
+}

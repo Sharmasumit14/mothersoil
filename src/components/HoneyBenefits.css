@@ -1,0 +1,39 @@
+/* Honey Benefits Section Styles */
+.honey-benefits.section {
+  padding: 2rem 1rem;
+  background: #fff8e1;
+  border-radius: 1.2rem;
+  margin: 2rem auto 0 auto;
+  max-width: 900px;
+  box-shadow: 0 2px 12px rgba(124, 92, 62, 0.08);
+}
+.honey-benefits h2 {
+  color: #7c5a36;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.benefits-list {
+  list-style: disc inside;
+  color: #7c5c3e;
+  font-size: 1.1rem;
+  padding-left: 0;
+  margin: 0 auto;
+  max-width: 700px;
+}
+.benefits-list li {
+  margin-bottom: 0.7rem;
+}
+@media (max-width: 600px) {
+  .honey-benefits.section {
+    padding: 1rem 0.5rem;
+    border-radius: 0.7rem;
+    margin-top: 1rem;
+  }
+  .honey-benefits h2 {
+    font-size: 1.3rem;
+  }
+  .benefits-list {
+    font-size: 1rem;
+  }
+}

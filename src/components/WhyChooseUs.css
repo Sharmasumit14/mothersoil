@@ -1,0 +1,36 @@
+/* Why Choose Us Section Styles */
+.why {
+  margin-top: 2rem;
+  background: linear-gradient(120deg, #fff8e1 80%, #f5ecd7 100%);
+  border-radius: 2rem;
+  box-shadow: 0 2px 24px rgba(124, 92, 62, 0.06);
+  padding: 4rem 1.5rem 3rem 1.5rem;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.why-list {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.why-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #7c5c3e;
+  font-weight: 600;
+}
+.why-item .icon {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 900px) {
+  .why-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+}
