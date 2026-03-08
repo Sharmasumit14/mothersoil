@@ -24,7 +24,7 @@ const Hero = () => (
         just pure goodness from nature to your doorstep.
       </p>
       <a
-        href="https://wa.me/919999999999?text=Hi%20Mother%20Soil!%20I%20want%20to%20order%20your%20natural%20products."
+        href="https://wa.me/919012723216?text=Hi%20Mother%20Soil!%20I%20want%20to%20order%20your%20natural%20products."
         className="cta-btn"
         target="_blank"
         rel="noopener noreferrer"

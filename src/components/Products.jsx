@@ -6,7 +6,7 @@ const Products = () => (
     <h2>Our Products</h2>
     <div className="product-list">
       <div className="product-card">
-        <img src="/assets/honey1.webp" alt="Ajwain Honey" />
+        <img src="/assets/ajwain.webp" alt="Ajwain Honey" />
         <h3>Ajwain Honey</h3>
         <p>
           Ajwain Honey is known for its unique flavor and medicinal properties.
@@ -24,7 +24,7 @@ const Products = () => (
         </a>
       </div>
       <div className="product-card">
-        <img src="/assets/honey3.jpeg" alt="Multi-Floral Honey" />
+        <img src="/assets/multi-floral.webp" alt="Multi-Floral Honey" />
         <h3>Multi-Floral Honey</h3>
         <p>
           Multi-Floral Honey is harvested from a variety of flowers, offering a
@@ -42,7 +42,7 @@ const Products = () => (
         </a>
       </div>
       <div className="product-card">
-        <img src="/assets/honey2.jpeg" alt="Eucalyptus Honey" />
+        <img src="/assets/eucalyptus.webp" alt="Eucalyptus Honey" />
         <h3>Eucalyptus Honey</h3>
         <p>
           Eucalyptus Honey is valued for its soothing properties. It helps
