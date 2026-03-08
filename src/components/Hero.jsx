@@ -23,14 +23,14 @@ const Hero = () => (
         <span style={{ color: "#7fa86b", fontWeight: 600 }}>No chemicals</span>,
         just pure goodness from nature to your doorstep.
       </p>
-      <a
+      {/* <a
         href="https://wa.me/919012723216?text=Hi%20Mother%20Soil!%20I%20want%20to%20order%20your%20natural%20products."
         className="cta-btn"
         target="_blank"
         rel="noopener noreferrer"
       >
         Order on WhatsApp
-      </a>
+      </a> */}
     </div>
     <div className="honey-drip"></div>
   </section>
