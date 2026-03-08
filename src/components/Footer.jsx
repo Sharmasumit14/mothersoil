@@ -25,7 +25,7 @@ const Footer = () => (
       </div>
       <div className="footer-social-section">
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/mothersoil__official?igsh=bW0zN3VqMTNpNXJn"
           aria-label="Instagram"
           target="_blank"
           rel="noopener noreferrer"
@@ -33,7 +33,7 @@ const Footer = () => (
           <FaInstagram />
         </a>
         <a
-          href="mailto:info@mothersoil.in"
+          href="mailto:mothersoilofficial@gmail.com"
           aria-label="Mail"
           target="_blank"
           rel="noopener noreferrer"

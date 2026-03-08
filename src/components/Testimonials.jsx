@@ -6,27 +6,29 @@ const Testimonials = () => (
     <div className="testimonial-list">
       <div className="testimonial">
         <p>
-          "The honey is so pure and delicious! I love knowing it's
-          chemical-free."
+          "So happy with this purchase. It’s simple, effective, and exactly what
+          I was looking for. I’ve already recommended it to a few friends!"
         </p>
-        <span>- Priya S.</span>
+        <span>- Chaudhary Mani Gill.</span>
       </div>
       <div className="testimonial">
         <p>
-          "Mother Soil's vermicompost transformed my garden. Highly recommend!"
+          "I’ve tried many similar products, but this one feels real — no added
+          chemicals, no weird smells… just PURE results. Really impressed!"
         </p>
-        <span>- Rahul M.</span>
+        <span>- Khushboo Dalal.</span>
       </div>
       <div className="testimonial">
         <p>"Fast delivery and genuine products. Will order again!"</p>
-        <span>- Anjali T.</span>
+        <span>- Yogita singh.</span>
       </div>
       <div className="testimonial">
         <p>
-          "The honey is so pure and delicious! I love knowing it's
-          chemical-free."
+          "This organic honey tastes incredible — rich, smooth, and so much
+          better than anything I’ve tried before. I can tell it’s truly
+          natural!"
         </p>
-        <span>- Priya S.</span>
+        <span>- Vinod Rana</span>
       </div>
     </div>
   </section>
