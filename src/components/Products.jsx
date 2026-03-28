@@ -75,22 +75,28 @@ const Products = () => (
           Order on WhatsApp
         </a>
       </div>
-      {/* <div className="product-card">
-        <img src="/assets/other-products.jpg" alt="Other Natural Products" />
-        <h3>Other Natural Products</h3>
+      <div className="product-card">
+        <img src="/assets/vermicompost.webp" alt="VermiCompost" />
+        <h3>Vermicompost</h3>
         <p>
-          Explore our range of pure, organic, and sustainable products from
-          Mother Soil.
+          Natural fertilizer made from decomposed organic waste, rich in
+          nutrients and beneficial microorganisms.
         </p>
+        <span className="price">
+          ₹149/kg
+          <br />
+          <hr />
+          ₹229/2kg
+        </span>
         <a
-          href="https://wa.me/9012723216?text=I%20want%20to%20know%20more%20about%20your%20natural%20products."
+          href="https://wa.me/9012723216?text=I%20want%20to%20know%20more%20about%20your%20Vermicompost."
           className="order-btn"
           target="_blank"
           rel="noopener noreferrer"
         >
           Order on WhatsApp
         </a>
-      </div> */}
+      </div>
     </div>
   </section>
 );
