@@ -5,7 +5,8 @@
   box-shadow: 0 2px 24px rgba(124, 92, 62, 0.06);
   margin-top: 2rem;
   padding: 4rem 1.5rem 3rem 1.5rem;
-  width: 100vw;
+  width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
 }
 .product-list {

@@ -6,6 +6,7 @@ const Header = () => (
     <img src="/assets/logo.png" alt="Mother Soil Logo" className="logo" />
     <nav>
       <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
       <a href="#products">Products</a>
       <a href="#why">Why Us</a>
       <a href="#testimonials">Testimonials</a>

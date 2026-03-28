@@ -1,5 +1,6 @@
 import "./App.css";
 import Hero from "./components/Hero";
+import Gallery from "./components/Gallery";
 import About from "./components/About";
 import Products from "./components/Products";
 import WhyChooseUs from "./components/WhyChooseUs";
@@ -15,10 +16,13 @@ function App() {
     <>
       <Hero />
       <Products />
+      <Gallery />
+      <About />
+
       <WhyChooseUs />
       {/* <HowToOrder /> */}
       <Testimonials />
-      <About />
+
       <Contact />
       <FixedWhatsappButton />
       <Footer />

@@ -1,0 +1,192 @@
+.gallery {
+  background: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 2px 24px rgba(124, 92, 62, 0.06);
+  margin-top: 0;
+  padding: 3.5rem 1.5rem 3rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  width: min(50vw, 320px);
+  height: min(50vw, 320px);
+  background: radial-gradient(
+    circle,
+    rgba(140, 179, 105, 0.12) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.gallery-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.gallery-eyebrow {
+  font-family: var(--font-heading, "Montserrat", Arial, sans-serif);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--green, #7fa86b);
+  margin: 0 0 0.35rem;
+  text-align: center;
+}
+
+.gallery h2 {
+  text-align: center;
+  font-family: var(--font-heading, "Montserrat", Arial, sans-serif);
+  color: var(--brown, #6b4f2a);
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  margin: 0 0 0.75rem;
+}
+
+.gallery-intro {
+  text-align: center;
+  color: var(--dark-brown, #3e2c18);
+  opacity: 0.92;
+  max-width: 36rem;
+  margin: 0 auto 2rem;
+  line-height: 1.55;
+  font-size: clamp(0.95rem, 2vw, 1.05rem);
+}
+
+/* Four photos: one row on large screens, 2×2 on medium, stacked on small */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(0.85rem, 2vw, 1.35rem);
+  width: 100%;
+  max-width: min(100%, 1040px);
+  margin: 0 auto;
+}
+
+.gallery-card {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  background: var(--beige, #f6e7d7);
+  box-shadow: 0 4px 20px rgba(124, 92, 62, 0.08);
+  border: 1px solid rgba(226, 194, 144, 0.45);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.gallery-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 36px rgba(124, 92, 62, 0.14);
+}
+
+.gallery-card-media {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #fff8e1;
+}
+
+.gallery-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.45s ease;
+}
+
+.gallery-card:hover .gallery-card-media img {
+  transform: scale(1.04);
+}
+
+.gallery-card-fallback {
+  width: 100%;
+  height: 100%;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  background: linear-gradient(145deg, #fff8e1 0%, var(--beige, #f6e7d7) 100%);
+  border: 2px dashed rgba(124, 92, 62, 0.25);
+  box-sizing: border-box;
+}
+
+.gallery-card-fallback-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    var(--green, #7fa86b),
+    var(--accent, #e2c290)
+  );
+  opacity: 0.85;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z'/%3E%3C/svg%3E")
+    center / 60% 60% no-repeat;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z'/%3E%3C/svg%3E")
+    center / 60% 60% no-repeat;
+}
+
+.gallery-card-fallback-text {
+  font-family: var(--font-heading, "Montserrat", Arial, sans-serif);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--brown, #6b4f2a);
+}
+
+.gallery-card-fallback-path {
+  font-size: 0.65rem;
+  color: var(--brown, #6b4f2a);
+  opacity: 0.75;
+  word-break: break-all;
+  max-width: 100%;
+  padding: 0 0.25rem;
+}
+
+.gallery-card-caption {
+  font-family: var(--font-main, "Quicksand", Arial, sans-serif);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--brown, #6b4f2a);
+  padding: 0.85rem 1rem 1rem;
+  text-align: center;
+  line-height: 1.35;
+}
+
+@media (max-width: 960px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    max-width: 640px;
+  }
+
+  .gallery {
+    padding: 2.5rem 1rem 2rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+    max-width: 420px;
+  }
+
+  .gallery-card-media {
+    aspect-ratio: 16 / 10;
+  }
+}
