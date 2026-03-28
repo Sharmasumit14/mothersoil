@@ -70,8 +70,9 @@
   margin-top: auto;
 }
 .order-btn:hover {
-  background: linear-gradient(90deg, #7c5c3e, #8cb369);
+  background: #7c5c3e;
   transform: scale(1.05);
+  color: #fff;
 }
 @media (max-width: 900px) {
   .product-list {

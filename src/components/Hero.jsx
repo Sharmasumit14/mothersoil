@@ -12,7 +12,7 @@ const Hero = () => (
         src="/assets/logo.png"
         alt="Mother Soil Logo"
         className="logo"
-        style={{ height: "200px", maxWidth: "480px", marginBottom: "0.5rem" }}
+        style={{ height: "300px", maxWidth: "480px", marginBottom: "0.5rem" }}
       />
       <p className="tagline" style={{ margin: "0.25rem 0" }}>
         Pure From Nature, Delivered With Care

@@ -4,7 +4,8 @@
   right: 24px;
   bottom: 24px;
   z-index: 1000;
-  background: #25d366;
+  background: #fff;
+  color: #25d366;
   border-radius: 50%;
   box-shadow: 0 2px 12px rgba(124, 92, 62, 0.12);
   padding: 0.6rem;
@@ -16,8 +17,10 @@
     box-shadow 0.2s;
 }
 .fixed-whatsapp-btn:hover {
-  background: #1ebea5;
+  /* background: #1ebea5; */
   box-shadow: 0 4px 16px rgba(124, 92, 62, 0.18);
+  transform: scale(1.2);
+  color: #25d366;
 }
 .whatsapp-icon {
   width: 38px;

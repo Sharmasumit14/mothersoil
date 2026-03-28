@@ -13,7 +13,12 @@ const Products = () => (
           It helps boost immunity, aids digestion, and is a natural remedy for
           cough and cold.
         </p>
-        <span className="price">₹350/ 500g</span>
+        <span className="price">
+          ₹249/250g
+          <br />
+          <hr />
+          ₹349/500g
+        </span>
         <a
           href="https://wa.me/9012723216?text=I%20want%20to%20order%20Ajwain%20Honey%20from%20Mother%20Soil."
           className="order-btn"
@@ -31,7 +36,12 @@ const Products = () => (
           rich taste and high nutritional value. It supports overall wellness
           and provides natural energy.
         </p>
-        <span className="price">₹350/500g</span>
+        <span className="price">
+          ₹249/250g
+          <br />
+          <hr />
+          ₹349/500g
+        </span>
         <a
           href="https://wa.me/9012723216?text=I%20want%20to%20order%20Multi%20Floral%20Honey%20from%20Mother%20Soil."
           className="order-btn"
@@ -49,7 +59,13 @@ const Products = () => (
           relieve respiratory issues, promotes oral health, and is a natural
           antibacterial agent.
         </p>
-        <span className="price">₹350/500g</span>
+        <span className="price">
+          ₹249/250g
+          <br />
+          <hr />
+          ₹349/500g
+        </span>
+
         <a
           href="https://wa.me/9012723216?text=I%20want%20to%20order%20Eucalyptus%20Honey%20from%20Mother%20Soil."
           className="order-btn"
