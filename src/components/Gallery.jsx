@@ -5,27 +5,44 @@ import "./Gallery.css";
 const GALLERY_ITEMS = [
   {
     id: "g1",
-    src: "/assets/vermicompost.webp",
+    src: "/assets/gallery1.webp",
     alt: "Vermicompost and soil care on the farm",
-    caption: "Vermicompost & soil care",
+    caption:
+      "Handcrafted soil enrichment through natural vermicomposting practices.",
   },
   {
     id: "g2",
-    src: "/assets/gallery/field-2.webp",
+    src: "/assets/gallery5.webp",
     alt: "Farm and composting work",
-    caption: "Soil & compost",
+    caption:
+      "Sustainable beekeeping with carefully maintained honeycomb frames.",
   },
   {
     id: "g3",
-    src: "/assets/gallery/field-3.webp",
+    src: "/assets/gallery3.webp",
     alt: "Team in the field",
-    caption: "In the field",
+    caption: "Nature’s pollinator at work—capturing purity in every drop.",
   },
   {
     id: "g4",
-    src: "/assets/gallery/field-4.webp",
+    src: "/assets/gallery4.webp",
     alt: "Natural produce and packing",
-    caption: "From farm to pack",
+    caption:
+      "Expansive apiary setup ensuring quality honey production at scale.",
+  },
+  {
+    id: "g5",
+
+    src: "/assets/gallery2.webp",
+    alt: "Farm work and harvest",
+    caption:
+      "Dedicated care and precision in every step of organic processing.",
+  },
+  {
+    id: "g6",
+    src: "/assets/gallery6.webp",
+    alt: "Mother Soil in the field",
+    caption: "Pure, raw honeycomb preserved in its most natural form.",
   },
 ];
 
@@ -73,7 +90,7 @@ const Gallery = () => (
       <p className="gallery-eyebrow">Behind the scenes</p>
       <h2 id="gallery-heading">Gallery</h2>
       <p className="gallery-intro">
-        Four glimpses from our hives, fields, and everyday work—pure nature, no
+        Glimpses from our hives, fields, and everyday work—pure nature, no
         shortcuts.
       </p>
       <div className="gallery-grid">
